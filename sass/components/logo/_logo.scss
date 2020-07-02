@@ -1,0 +1,19 @@
+.logo {
+  color: $accent-color;
+
+  font-family: $logo-font;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+
+  &__text {
+    color: $black-color;
+  }
+
+  &__text_inverse {
+    color: $white-color;
+  }
+}
+.nav__logo {
+  margin-right: 85px;
+}

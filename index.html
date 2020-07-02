@@ -12,7 +12,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/0.6.0/modern-normalize.min.css"
     />
-    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
     <!-- Header -->
@@ -489,7 +489,7 @@
             <li class="contacts__item">
               <a
                 href="mailto:info@devstudio.com"
-                class="link contacts__link contacts__link_second"
+                class="link contacts__link_second"
                 aria-label="Написать на электорнную почту info@devstudio.com"
               >
                 <span class="mail">info@devstudio.com</span>
@@ -498,7 +498,7 @@
             <li class="contacts__item">
               <a
                 href="tel:+380961111111"
-                class="link contacts__link contacts__link_second"
+                class="link contacts__link_second"
                 aria-label="Позвонить по номеру +380961111111"
               >
                 <span class="tel">+38 096 111 11 11</span>
@@ -594,12 +594,13 @@
             </label>
           </div>
           <div class="input-wrap">
-            <label class="label">
+            <label for="tel" class="label">
               <input
                 type="tel"
                 name="telephone"
                 class="input"
                 placeholder=" "
+                id="tel"
               />
               <span class="label__text">Телефон</span>
               <svg class="label__icon" width="18" height="18">
